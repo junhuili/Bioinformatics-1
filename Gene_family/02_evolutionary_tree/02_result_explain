@@ -1,0 +1,3 @@
+1. clustalw2做好多序列比对之后，会生成3个文件，.aln .dnd .phy
+2. 把.aln文件放在mega中构建进化树，选择nj法
+3. 把.aln文件放在weblogo网站上，生成保守domain标识图
