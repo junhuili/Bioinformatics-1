@@ -1,0 +1,5 @@
+1. 从pfam数据库中搜索相应的基因家族，下载该基因家族的raw HMM
+2. 在服务器上安装hmmer-3.1b1-linux-intel-x86_64软件
+3. 运行软件，类似命令行: ./hmmer-3.1b1-linux-intel-x86_64/bin/hmmsearch raw_HMM  pep.fasta > gene_family_pfam.txt
+4. 此步操作是从头预测具有该domain的蛋白序列
+5. 结果根据evalue留取
